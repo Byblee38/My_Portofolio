@@ -1,0 +1,49 @@
+.titleSkill
+{
+    -webkit-text-stroke-color: var(--Primary-Black, #000);
+    font-family: Sora;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; 
+    letter-spacing: -0.56px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boxSkill
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+
+}
+
+.skills
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 25px;
+    gap: 30px;
+}
+
+.skill
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.skillIcon
+{
+    width: 90px;
+    height: 90px;
+}

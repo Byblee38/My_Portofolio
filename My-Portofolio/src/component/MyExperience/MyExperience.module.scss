@@ -1,0 +1,138 @@
+.experience
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px 25px;
+
+        .titleExperience
+        {
+        -webkit-text-stroke-color: var(--Primary-Black, #000);
+        font-family: Sora;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 32px; 
+        letter-spacing: -0.56px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        }
+
+        .boxExperience
+        {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+
+        }      
+        .exper
+        {   
+        border-radius: 10px;
+        border: 1px solid var(--Zinc-500, #71717A);
+        display: flex;
+        padding: 30px 24px;
+        flex-direction: column;
+        align-self: stretch;
+        }
+
+        .experContent
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+        }
+
+        .experIcon
+        {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        gap: 20px;
+
+            .experImg
+            {
+            width: 70px;
+            height: 70px;
+            }
+
+            .experInfo
+            {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            color: var(--Primary-White, #000000);
+            font-size: 24px;
+
+                .experPosition
+                {
+                    margin-bottom: 1px;
+                    letter-spacing: -0.4px;
+                    text-transform: capitalize;
+                    font-family: Sora;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 24px;
+        
+                }
+
+                .experCompany
+                {
+                    margin-top: 1px;
+                    font-family: Sora;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    font-style: italic;
+                }
+             }
+        }
+
+        .experText
+        {
+            color: var(--Primary-Neutral, #404040);
+            margin-top: 1px;
+            font-size: 20px;
+            
+            .experDate
+            {
+                font-family: Sora;
+                font-style: oblique;
+                margin-top: 1px;
+            }
+        }
+
+    @media screen and (min-width: 1024px)
+    {
+        .experContent
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .exper:hover
+    {
+        transform: scale(1.02); translateZ: (0);
+        background-size: 200%;
+        transition: 0.5s;
+    }
+
+    .boxExperience:hover .exper:not(.exper:hover)
+    {
+        transform: scale(0.9);
+        transition: 0.5s;
+        filter: blur(10px);
+    }
+}

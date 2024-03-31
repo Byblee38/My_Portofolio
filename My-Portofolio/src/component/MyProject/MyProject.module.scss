@@ -1,0 +1,129 @@
+.MyProject
+{ 
+    .titleProject
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        font-family: sora;
+    }
+
+    .project
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 16px;
+        align-items: center;
+        align-self: center;
+        border: solid 1px rgb(255, 255, 255);
+        border-radius: 18.761px;
+        margin-top: 10px;
+        overflow: hidden;
+        isolation: isolate;
+
+        .projectImg
+        {
+            width: auto;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 18.761px;
+            box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12), 0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+        }
+
+        .projectText
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;
+            font-size: 20px;
+
+            .projectNo
+            {
+                font-family: Sora;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 28px;
+                letter-spacing: -0.48px;
+                font-size: 35px;
+            }
+
+            .projectTitle
+            {
+                font-family: Sora;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 24px; 
+                letter-spacing: -0.4px;
+                text-transform: capitalize;
+            }
+
+            .projectDescription
+            {
+                color: var(--Zinc-500, #71717A);
+                font-family: Sora;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.32px;
+            }
+
+            .projectButton
+            {
+                border-radius: 4px;
+                font-family: sora;
+                background: var(--Primary-Black, #000);
+                color: var(--Primary-White, #FFFFFF);
+                line-height: 24px;
+                padding: 10px 20px;
+
+                .link
+                {
+                    color: #000;
+                }
+
+                .buttonProject
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #000000;
+                    color: #FFFFFF;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .project:hover
+    {
+        left: auto;
+        right: 0;
+        border-radius: 20px;
+        transition: 1s;
+        background: var(--Primary-White, #FFF);
+        box-shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.8);
+    }
+
+    .project:not(:hover) .MyProject:hover
+    {
+        transition: 0.5s;
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .MyProject
+    {
+        .project
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+        }
+    }
+}
