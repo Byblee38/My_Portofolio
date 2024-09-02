@@ -39,7 +39,7 @@ const GetInTouch = () => {
                 </div>
                 <div className={style.copy2}>
                 <h1 className={style.phoneNumber}>+62 938-6366-9292</h1>
-                <img className={style.copyIcon} src={copyIcon} alt="copyToClipboard" onClick={() => copyToClipboard('+62 938-6366-9292')}/>
+                <img className={style.copyIcon} src={copyIcon} alt="copyToClipboard" onClick={() => copyToClipboard('+62 938-6366-9292')} />
                 </div>            
             </div>
             </div>

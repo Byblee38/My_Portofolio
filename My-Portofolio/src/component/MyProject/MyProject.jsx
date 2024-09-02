@@ -20,7 +20,7 @@ const MyProject = () => {
                                 <h1 className={style.projectTitle}>{item.title}</h1>
                                 <p className={style.projectDescription}>{item.description}</p>
                                 <div className={style.projectButton}>
-                                <a href={item.view} className={style.link}><button className={style.buttonProject}>View</button></a>
+                                <a href={item.view} className={style.link}><button className={style.buttonProject} formTarget='_blank'>View</button></a>
                                 </div>
                             </div>
                         </div>

@@ -14,6 +14,7 @@ export const MyProjectList = {
         description : 'This is my first project, featuring login and register pages. I have utilized React Router DOM to connect between the login and register pages.',
         reserve : false,
         view : '/Login',
+        target : '_blank',
        },
        {
         id: 2,
@@ -23,6 +24,7 @@ export const MyProjectList = {
         description : 'This webpage showcases cars available in the showroom. Within the website, I have incorporated a filtering feature to facilitate clients or users in finding their desired car categories.',
         reserve : true,
         view : '/carshowroom',
+        target : '_blank',
        },
        {
         id: 3,
@@ -32,6 +34,7 @@ export const MyProjectList = {
         description : 'And this is my latest project, creating a responsive portfolio website. This website contains numerous components and is extensively linked to other websites. It is integrated with my social media accounts and also connected to my previously completed projects.',
         reserve : false,
         view : '/',
+        target : '_blank',
        },
     ],
 };

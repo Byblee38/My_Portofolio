@@ -12,7 +12,7 @@ import Footer from './component/Footer/Footer'
 function App() {
 
   return (
-    <>
+    <div className='App'>
       <Header/>
       <section id='hero'>
         <Hero/>
@@ -38,7 +38,7 @@ function App() {
       <section>
         <Footer/>
       </section>
-    </>
+    </div>
   )
 }
 
