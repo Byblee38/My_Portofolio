@@ -2,6 +2,7 @@ import style from './MyProject.module.scss'
 import { MyProjectList } from './MyProject'
 
 const MyProject = () => {
+
     return (  
         <div className={style.MyProject}>
             <div className={style.titleProject}>
