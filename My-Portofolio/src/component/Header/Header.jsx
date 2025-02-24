@@ -33,9 +33,6 @@ const Header = () => {
                         <a className={style.link} href='#myProject'>My Project</a>
                     </li>
                     <li>
-                        <a className={style.link} href='#myTestimonial'>My Testimonial</a>
-                    </li>
-                    <li>
                         <a className={style.link} href='#getInTouch'>Get In Touch</a>
                     </li>
                 </ul>

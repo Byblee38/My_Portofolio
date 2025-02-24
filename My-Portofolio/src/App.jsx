@@ -5,7 +5,6 @@ import MySkills from './component/MySkills/MySkills.jsx'
 import MyExperience from './component/MyExperience/MyExperience.jsx'
 import AboutMe from './component/AboutMe/AboutMe.jsx'
 import MyProject from './component/MyProject/MyProject.jsx'
-import MyTestimonial from './component/MyTestimonial/MyTestimonial.jsx'
 import GetInTouch from './component/GetInTouch/GetInTouch'
 import Footer from './component/Footer/Footer'
 
@@ -28,9 +27,6 @@ function App() {
       </section>
       <section id='myProject'>
         <MyProject/>
-      </section>
-      <section id='myTestimonial'>
-        <MyTestimonial/>
       </section>
       <section id='getInTouch'>
         <GetInTouch/>

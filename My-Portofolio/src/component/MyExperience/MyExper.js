@@ -17,7 +17,7 @@ export const MyExper = {
            id : 2,
            img : SmknIcon,
            position : 'Vice President of Student Council',
-           date : '2023 - Present',
+           date : '2023 - 2024',
            description : 'As the Vice President, I supported the Head of Student Council in managing school activities. I ensured smooth operational flow and collaborated with other members of the student council. In this role, I learned about teamwork and problem-solving. I interacted with students and teachers, understanding their needs, and endeavored to enhance the learning experience at school. I also organized meetings and listened to feedback from various stakeholders.',
            company : 'At SMKN 1 Sukatani',
        },
